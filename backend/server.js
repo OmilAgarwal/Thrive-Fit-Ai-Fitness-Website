@@ -9,7 +9,7 @@ const PORT = 5000;
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://localhost:27017/meta_fit", {
+  .connect("mongodb+srv://omilagarwal:xdb6iRHUorCSs48Y@cluster0.jm2yzti.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
